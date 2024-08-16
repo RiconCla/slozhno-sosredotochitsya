@@ -2,3 +2,18 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+/* Переменные начиная от темной темы */
+
+:root {
+  --subtitle-color: rgba(0, 0, 40, 1);
+  --title-color: rgba(219, 0, 255, 1); /* цвет текста заголовка верхнего уровня */
+  --secondary-color: rgba(255, 0, 112, 1); /* цвет главных заголовоков секции */
+  --text-color: rgba(241, 178, 206, 1); /* цвет основного текста страницы */
+  --accent-color: rgba(255, 0, 112, 1); /*цвет плашек секций */
+  --btn-hover-color: rgba(255, 0, 112, 0.4);
+  --bg-image: url(../images/cover-image-dark.png);
+  --main-font: 'IBM Plex mono';
+  --rec-icon-visibility: visible;
+  /* --padding-page-mobile: 10px;
+  --padding-page-tablet_and_desktop: 0 20px; */
+}
