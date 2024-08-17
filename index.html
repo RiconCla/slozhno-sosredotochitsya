@@ -45,7 +45,7 @@
           </li>
         </ul>
       </nav>
-      <h1 class="header__heading">no focus</h1>
+      <h1 class="header__heading heading">no focus</h1>
       <p class="header__text title-decor">
         Что делать, когда не можешь делать ничего<br />
         Или почему нам так сложно сконцентрироваться, особенно когда очень надо
@@ -62,9 +62,10 @@
               важные. Где же легендарная многозадачность, когда она так нужна
               вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
               её просто не существует. Исследователи
-              <a class="section__link shadow-decorated" href="#" target="_blank"
+              <a class="section__link link-decorated" href="#" target="_blank"
                 >выяснили</a
-              > что мозгу тяжело концентрироваться даже на двух делах
+              >
+              что мозгу тяжело концентрироваться даже на двух делах
               одновременно. А когда в поле внимания попадает несколько важных
               задач, организм паникует и выделяет кортизол и адреналин —
               «гормоны стресса». Из-за этого мы работаем невнимательно:
@@ -169,7 +170,7 @@
             <p class="section__pharagraph-text">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
               <a
-                class="section__link shadow-decorated"
+                class="section__link link-decorated"
                 href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
                 target="_blank"
                 >показал</a
@@ -207,16 +208,51 @@
       <section class="gallery section">
         <h2 class="gallery__heading title-decor">А можно в картинках?</h2>
         <div class="gallery__container">
-          <img src="./images/sunset.png" alt="закат на фоне гор" />
-          <img src="./images/ice-cream.png" alt="вкусная еда" />
-          <img src="./images/tape.png" alt="музыка" />
-          <img src="./images/books.png" alt="книги" />
-          <img src="./images/street.png" alt="прогулка" />
+          <picture>
+            <img
+              class="gallery__image sunset"
+              src="./images/sunset.png"
+              alt="закат на фоне гор"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <img
+              class="gallery__image ice-cream"
+              src="./images/ice-cream.png"
+              alt="вкусная еда"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <img
+              class="gallery__image tape"
+              src="./images/tape.png"
+              alt="музыка"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <img
+              class="gallery__image books"
+              src="./images/books.png"
+              alt="книги"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <img
+              class="gallery__image street"
+              src="./images/street.png"
+              alt="прогулка"
+              loading="lazy"
+            />
+          </picture>
         </div>
       </section>
     </main>
     <footer class="footer decorated-zone">
-      <p class="footer__heading">focus</p>
+      <p class="footer__heading heading">focus</p>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>

@@ -5,15 +5,21 @@
 /* Переменные начиная от темной темы */
 
 :root {
-  --subtitle-color: rgba(0, 0, 40, 1);
+  --subtitle-color: rgba(0, 0, 40, 1); /* цвет текста подзаголовка */
   --title-color: rgba(219, 0, 255, 1); /* цвет текста заголовка верхнего уровня */
-  --secondary-color: rgba(255, 0, 112, 1); /* цвет главных заголовоков секции */
+  --secondary-color: rgba(255, 0, 112, 1); /* второй цвет акцентных элементов */
   --text-color: rgba(241, 178, 206, 1); /* цвет основного текста страницы */
   --accent-color: rgba(255, 0, 112, 1); /*цвет плашек секций */
-  --btn-hover-color: rgba(255, 0, 112, 0.4);
-  --bg-image: url(../images/cover-image-dark.png);
-  --main-font: 'IBM Plex mono';
-  --rec-icon-visibility: visible;
-  /* --padding-page-mobile: 10px;
-  --padding-page-tablet_and_desktop: 0 20px; */
+  --btn-hover-color: rgba(255, 0, 112, 0.4); /*цвет кнопок при наведении */
+  --bg-image: url(../images/cover-image-dark.png); /*фон страницы */
+  --main-font: 'IBM Plex mono', monospace; /*шрифт страницы */
+  --rec-icon-visibility: visible; /*признак отображения декоративной иконки "REC" */
+  --padding-decor-mobile: 10px; /* внутренний отступ шапки для мобильной версии */
+  --padding-section-mobile: 0 10px 0; /* внутренний отступ секций для мобильной версии */
+  --padding-decor-tablet_and_desktop: 20px; /* внутренний отступ шапки для плашетной/десктопной версий */
+  --padding-section-tablet_and_desktop: 0 20px 0; /* внутренний отступ секций для планшетной/десктопной версий */
+  --offset-decor-mobile: 10px; /* отступ для декоративных рамок для мобильной версии */
+  --offset-decor-tablet_and_desktop: 20px; /* отступ для декоративных рамок для планшетной/десктопной версий */
+  --title-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /* размер шрифта заголовка в шапки для мобильной версии */
+  --title-font-size-tablet_and_desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /* размер шрифта заголовка в шапки для планшетной/десктопной версий */
 }
