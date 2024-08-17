@@ -320,7 +320,7 @@
     grid-area: street;
   }
 
-  .gallery__container {
+  .gallery__container img {
     grid-template-areas:
       "sunset sunset ice-cream"
       "tape books ice-cream"
