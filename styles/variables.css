@@ -9,11 +9,11 @@
   --title-color: rgba(219, 0, 255, 1); /* цвет текста заголовка верхнего уровня */
   --secondary-color: rgba(255, 0, 112, 1); /* второй цвет акцентных элементов */
   --text-color: rgba(241, 178, 206, 1); /* цвет основного текста страницы */
-  --accent-color: rgba(255, 0, 112, 1); /*цвет плашек секций */
+  --accent-color: rgba(255, 0, 112, 1); /* цвет плашек секций */
   --btn-hover-color: rgba(255, 0, 112, 0.4); /*цвет кнопок при наведении */
   --bg-image: url(../images/cover-image-dark.png); /*фон страницы */
-  --main-font: 'IBM Plex mono', monospace; /*шрифт страницы */
-  --rec-icon-visibility: visible; /*признак отображения декоративной иконки "REC" */
+  --main-font: 'IBM Plex mono', monospace; /* шрифт страницы */
+  --rec-icon-visibility: visible; /* признак отображения декоративной иконки "REC" */
   --padding-decor-mobile: 10px; /* внутренний отступ шапки для мобильной версии */
   --padding-section-mobile: 0 10px 0; /* внутренний отступ секций для мобильной версии */
   --padding-decor-tablet_and_desktop: 20px; /* внутренний отступ шапки для плашетной/десктопной версий */
